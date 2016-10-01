@@ -26,7 +26,7 @@ print ("""What do you want to bomb?
         
     """)
 
-option = input()
+option = int(input())
 
 if option == 1:
     while (loop == 1):
